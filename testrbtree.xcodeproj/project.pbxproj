@@ -13,6 +13,17 @@
 		E6767F401C84FDF20090BF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6767F3F1C84FDF20090BF71 /* Assets.xcassets */; };
 		E6767F431C84FDF20090BF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6767F411C84FDF20090BF71 /* LaunchScreen.storyboard */; };
 		E6767F4E1C84FDF20090BF71 /* testrbtreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6767F4D1C84FDF20090BF71 /* testrbtreeTests.swift */; };
+		E6767F591C84FE270090BF71 /* RBTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6767F581C84FE270090BF71 /* RBTree.swift */; };
+		E6B9B3F81C851AD80057E73F /* PSBaseTreeGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B3F11C851AD80057E73F /* PSBaseTreeGraphView.m */; };
+		E6B9B3F91C851AD80057E73F /* PSBaseSubtreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B3F31C851AD80057E73F /* PSBaseSubtreeView.m */; };
+		E6B9B3FA1C851AD80057E73F /* PSBaseBranchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B3F51C851AD80057E73F /* PSBaseBranchView.m */; };
+		E6B9B3FB1C851AD80057E73F /* PSBaseLeafView.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B3F71C851AD80057E73F /* PSBaseLeafView.m */; };
+		E6B9B3FE1C851BC30057E73F /* PSHTreeGraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6B9B3FC1C851BC30057E73F /* PSHTreeGraphViewController.xib */; };
+		E6B9B3FF1C851BC30057E73F /* RBTreeNodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6B9B3FD1C851BC30057E73F /* RBTreeNodeView.xib */; };
+		E6B9B4011C851C670057E73F /* MyLeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B4001C851C670057E73F /* MyLeafView.swift */; };
+		E6B9B4031C851D300057E73F /* MyTreeGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B4021C851D300057E73F /* MyTreeGraphView.swift */; };
+		E6B9B4071C865DE90057E73F /* CustomValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B4061C865DE90057E73F /* CustomValueViewController.swift */; };
+		E6B9B40C1C8678BD0057E73F /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B9B40B1C8678BD0057E73F /* AddCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,25 @@
 		E6767F491C84FDF20090BF71 /* testrbtreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testrbtreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6767F4D1C84FDF20090BF71 /* testrbtreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testrbtreeTests.swift; sourceTree = "<group>"; };
 		E6767F4F1C84FDF20090BF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6767F581C84FE270090BF71 /* RBTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RBTree.swift; path = ../RBTree.swift; sourceTree = "<group>"; };
+		E6B9B3EC1C851AD70057E73F /* testrbtree-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testrbtree-Bridging-Header.h"; sourceTree = "<group>"; };
+		E6B9B3ED1C851AD80057E73F /* PSTreeGraphDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSTreeGraphDelegate.h; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSTreeGraphDelegate.h"; sourceTree = "<group>"; };
+		E6B9B3EE1C851AD80057E73F /* PSTreeGraphModelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSTreeGraphModelNode.h; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSTreeGraphModelNode.h"; sourceTree = "<group>"; };
+		E6B9B3EF1C851AD80057E73F /* PSBaseTreeGraphView_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSBaseTreeGraphView_Internal.h; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseTreeGraphView_Internal.h"; sourceTree = "<group>"; };
+		E6B9B3F01C851AD80057E73F /* PSBaseTreeGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSBaseTreeGraphView.h; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseTreeGraphView.h"; sourceTree = "<group>"; };
+		E6B9B3F11C851AD80057E73F /* PSBaseTreeGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSBaseTreeGraphView.m; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseTreeGraphView.m"; sourceTree = "<group>"; };
+		E6B9B3F21C851AD80057E73F /* PSBaseSubtreeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSBaseSubtreeView.h; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseSubtreeView.h"; sourceTree = "<group>"; };
+		E6B9B3F31C851AD80057E73F /* PSBaseSubtreeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSBaseSubtreeView.m; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseSubtreeView.m"; sourceTree = "<group>"; };
+		E6B9B3F41C851AD80057E73F /* PSBaseBranchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSBaseBranchView.h; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseBranchView.h"; sourceTree = "<group>"; };
+		E6B9B3F51C851AD80057E73F /* PSBaseBranchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSBaseBranchView.m; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseBranchView.m"; sourceTree = "<group>"; };
+		E6B9B3F61C851AD80057E73F /* PSBaseLeafView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSBaseLeafView.h; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseLeafView.h"; sourceTree = "<group>"; };
+		E6B9B3F71C851AD80057E73F /* PSBaseLeafView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSBaseLeafView.m; path = "../../../Downloads/PSTreeGraph-master/PSTreeGraphView/PSBaseLeafView.m"; sourceTree = "<group>"; };
+		E6B9B3FC1C851BC30057E73F /* PSHTreeGraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PSHTreeGraphViewController.xib; sourceTree = "<group>"; };
+		E6B9B3FD1C851BC30057E73F /* RBTreeNodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RBTreeNodeView.xib; sourceTree = "<group>"; };
+		E6B9B4001C851C670057E73F /* MyLeafView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLeafView.swift; sourceTree = "<group>"; };
+		E6B9B4021C851D300057E73F /* MyTreeGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTreeGraphView.swift; sourceTree = "<group>"; };
+		E6B9B4061C865DE90057E73F /* CustomValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomValueViewController.swift; sourceTree = "<group>"; };
+		E6B9B40B1C8678BD0057E73F /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +107,21 @@
 		E6767F371C84FDF10090BF71 /* testrbtree */ = {
 			isa = PBXGroup;
 			children = (
+				E6B9B40B1C8678BD0057E73F /* AddCell.swift */,
 				E6767F381C84FDF20090BF71 /* AppDelegate.swift */,
 				E6767F3A1C84FDF20090BF71 /* ViewController.swift */,
+				E6767F581C84FE270090BF71 /* RBTree.swift */,
+				E6B9B4061C865DE90057E73F /* CustomValueViewController.swift */,
+				E6B9B4001C851C670057E73F /* MyLeafView.swift */,
+				E6B9B4021C851D300057E73F /* MyTreeGraphView.swift */,
 				E6767F3C1C84FDF20090BF71 /* Main.storyboard */,
-				E6767F3F1C84FDF20090BF71 /* Assets.xcassets */,
+				E6B9B3FC1C851BC30057E73F /* PSHTreeGraphViewController.xib */,
+				E6B9B3FD1C851BC30057E73F /* RBTreeNodeView.xib */,
 				E6767F411C84FDF20090BF71 /* LaunchScreen.storyboard */,
+				E6767F3F1C84FDF20090BF71 /* Assets.xcassets */,
 				E6767F441C84FDF20090BF71 /* Info.plist */,
+				E6B9B40A1C8669F50057E73F /* PSTree */,
+				E6B9B3EC1C851AD70057E73F /* testrbtree-Bridging-Header.h */,
 			);
 			path = testrbtree;
 			sourceTree = "<group>";
@@ -94,6 +133,24 @@
 				E6767F4F1C84FDF20090BF71 /* Info.plist */,
 			);
 			path = testrbtreeTests;
+			sourceTree = "<group>";
+		};
+		E6B9B40A1C8669F50057E73F /* PSTree */ = {
+			isa = PBXGroup;
+			children = (
+				E6B9B3ED1C851AD80057E73F /* PSTreeGraphDelegate.h */,
+				E6B9B3EE1C851AD80057E73F /* PSTreeGraphModelNode.h */,
+				E6B9B3EF1C851AD80057E73F /* PSBaseTreeGraphView_Internal.h */,
+				E6B9B3F01C851AD80057E73F /* PSBaseTreeGraphView.h */,
+				E6B9B3F11C851AD80057E73F /* PSBaseTreeGraphView.m */,
+				E6B9B3F21C851AD80057E73F /* PSBaseSubtreeView.h */,
+				E6B9B3F31C851AD80057E73F /* PSBaseSubtreeView.m */,
+				E6B9B3F41C851AD80057E73F /* PSBaseBranchView.h */,
+				E6B9B3F51C851AD80057E73F /* PSBaseBranchView.m */,
+				E6B9B3F61C851AD80057E73F /* PSBaseLeafView.h */,
+				E6B9B3F71C851AD80057E73F /* PSBaseLeafView.m */,
+			);
+			name = PSTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +203,7 @@
 				TargetAttributes = {
 					E6767F341C84FDF10090BF71 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = ZU87D7M826;
 					};
 					E6767F481C84FDF20090BF71 = {
 						CreatedOnToolsVersion = 7.1;
@@ -178,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6767F431C84FDF20090BF71 /* LaunchScreen.storyboard in Resources */,
+				E6B9B3FF1C851BC30057E73F /* RBTreeNodeView.xib in Resources */,
 				E6767F401C84FDF20090BF71 /* Assets.xcassets in Resources */,
 				E6767F3E1C84FDF20090BF71 /* Main.storyboard in Resources */,
+				E6B9B3FE1C851BC30057E73F /* PSHTreeGraphViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +257,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6B9B4031C851D300057E73F /* MyTreeGraphView.swift in Sources */,
+				E6B9B4071C865DE90057E73F /* CustomValueViewController.swift in Sources */,
+				E6B9B3FA1C851AD80057E73F /* PSBaseBranchView.m in Sources */,
+				E6B9B3F91C851AD80057E73F /* PSBaseSubtreeView.m in Sources */,
 				E6767F3B1C84FDF20090BF71 /* ViewController.swift in Sources */,
+				E6767F591C84FE270090BF71 /* RBTree.swift in Sources */,
+				E6B9B4011C851C670057E73F /* MyLeafView.swift in Sources */,
+				E6B9B3FB1C851AD80057E73F /* PSBaseLeafView.m in Sources */,
 				E6767F391C84FDF20090BF71 /* AppDelegate.swift in Sources */,
+				E6B9B40C1C8678BD0057E73F /* AddCell.swift in Sources */,
+				E6B9B3F81C851AD80057E73F /* PSBaseTreeGraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,10 +396,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testrbtree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.ChillCoding.testrbtree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "testrbtree/testrbtree-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -338,10 +413,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = testrbtree/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.ChillCoding.testrbtree;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "testrbtree/testrbtree-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -388,6 +468,7 @@
 				E6767F541C84FDF20090BF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6767F551C84FDF20090BF71 /* Build configuration list for PBXNativeTarget "testrbtreeTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +477,7 @@
 				E6767F571C84FDF20090BF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
